@@ -18,6 +18,16 @@
 	src: url("../fonts/Gotham-Nights.ttf");
 }
 
+.comp-bg {
+	background: url("../images/competiton.jpg");
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-size: cover;
+	margin-bottom: 50px;
+	min-height: 800px;
+}
+
 .preloader {
 	position: fixed;
 	top: 0;
@@ -50,14 +60,19 @@
 	position: fixed;
 	width: 60px;
 	height: 60px;
-	bottom: 40px;
-	right: 40px;
+	bottom: 110px;
+	right: 24px;
 	background-color: #25d366;
 	color: #fff;
 	border-radius: 50px;
 	text-align: center;
 	font-size: 37px;
 	z-index: 100;
+	text-decoration: none;
+}
+
+.float:hover {
+	color: rgb(255, 255, 255, 0.7);
 }
 
 body {
